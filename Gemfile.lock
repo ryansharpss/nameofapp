@@ -1,3 +1,9 @@
+GIT
+  remote: git://github.com/RailsApps/rails_layout.git
+  revision: c5404d5b1b8cf1191b47b91dbba9615c02345b2f
+  specs:
+    rails_layout (1.0.29)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -162,6 +168,7 @@ DEPENDENCIES
   listen (~> 3.0.5)
   puma (~> 3.0)
   rails (~> 5.0.0)
+  rails_layout!
   sass-rails (~> 5.0)
   spring
   spring-watcher-listen (~> 2.0.0)

@@ -24,7 +24,34 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Ryan Sharp</a>
+      <a class="navbar-brand" href="#">Book Swap</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+       <li><%= link_to 'HOME', root_url %></li>
+       <li><%= link_to 'ABOUT', about_url %></li>
+        <li><%= link_to 'CONTACT', contact_url %></li>
+        <li role="separator" class="divider"></li>
+       
+      </ul>
+    </div>
+  </div><!-- /.container-fluid -->
+</nav>
+  <%= yield %>
+
+  <footer id="footerBar" class="navbar-bottom navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"        aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Book Swap</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -38,11 +65,7 @@
       </ul>
     </div>
   </div><!-- /.container-fluid -->
-</nav>
-  <%= yield %>
-
-  <footer>
-    &copy; 2015 Bike Berlin
+   
   </footer>
 </body>
 </html>

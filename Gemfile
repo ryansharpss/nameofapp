@@ -29,17 +29,13 @@ gem 'jbuilder', '~> 2.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-gem 'PostgreSQL ', :group => [:development, :test]
-group :production do
-  gem 'thin'
-  gem 'pg'
-end
-group :development, :test do
-  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  gem 'byebug', platform: :mri
-  
+group :development do
+   #gem 'sqlite' -> comment out for now
 end
 
+group :production do
+   gem 'pg'
+end
 group :development do
   gem 'rails_layout', github: 'RailsApps/rails_layout'
 end

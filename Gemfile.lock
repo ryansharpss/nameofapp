@@ -180,7 +180,7 @@ DEPENDENCIES
   sass-rails (~> 5.0)
   spring
   spring-watcher-listen (~> 2.0.0)
-  
+  sqlite3
   thin
   turbolinks (~> 5)
   tzinfo-data

@@ -31,7 +31,7 @@ group :production do
 end
 
 group :development, :test do
-  gem 'sqlite3', '1.3.4'
+  gem 'sqlite3', '1.3.11'
 end
 
 # Use Capistrano for deployment

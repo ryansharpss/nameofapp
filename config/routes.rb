@@ -9,7 +9,7 @@ Rails.application.routes.draw do
   
   
 
-
+<<<<<<< HEAD
   #devise_for :users
   #resources :users
 
@@ -20,12 +20,12 @@ Rails.application.routes.draw do
 =======
 
 # You can have the root of your site routed with "root"
-
+>>>>>>> new_branch_name
 
   root 'static_pages#index'
   
 
-
+<<<<<<< HEAD
   get 'index'     => 'static_pages#index'
 
  
@@ -34,8 +34,8 @@ Rails.application.routes.draw do
   post 'static_pages/thank_you'
 
   #post 'payments/create'
-
+=======
   
   resources :orders, only: [:index, :show, :create, :destroy]
-
+>>>>>>> new_branch_name
 end

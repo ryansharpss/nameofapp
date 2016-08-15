@@ -1,0 +1,89 @@
+<div class="container-fluid">
+  <div id="topDiv" class="container-fluid">
+    <div id="title">
+      <h1>Book Swap</h1>
+       <p>Welcome! The date and time is <%= Time.now %></p>
+    </div>
+  </div>
+  <div id="aboutText" class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <br>
+        <br>
+        <p>Great. We’ve applied our template to our pages, but it still looks pretty plain. What if we wanted to apply CSS styles to our pages?
+
+        In your project directory in Sublime Text, open your assets folder and click on stylesheets. Open the static_pages.scss file. You’ll see some comments already included. Remember when we generated index, about, and contact pages using the controller generator for static_pages? This CSS file, aptly also named static_pages.scss , was also created by the static_pages controller.
+
+        Let’s add some styles to our h1 selector, such as a font family, color, and text alignment. (Keep in mind all changes in this file will be accessible on all pages of your app. The different files are there to help you organize page specific CSS code. But if you apply a CSS rule to h1 in here it will also be applied to all h1 elements on other pages. So be careful and use classes if you want to specify CSS rules for only certain pages)
+
+        </p>
+        <br>
+        <br>
+        <p>Great. We’ve applied our template to our pages, but it still looks pretty plain. What if we wanted to apply CSS styles to our pages?
+
+        In your project directory in Sublime Text, open your assets folder and click on stylesheets. Open the static_pages.scss file. You’ll see some comments already included. Remember when we generated index, about, and contact pages using the controller generator for static_pages? This CSS file, aptly also named static_pages.scss , was also created by the static_pages controller.
+
+        Let’s add some styles to our h1 selector, such as a font family, color, and text alignment. (Keep in mind all changes in this file will be accessible on all pages of your app. The different files are there to help you organize page specific CSS code. But if you apply a CSS rule to h1 in here it will also be applied to all h1 elements on other pages. So be careful and use classes if you want to specify CSS rules for only certain pages)
+
+        </p>
+      </div>
+    </div>
+  </div>
+  <div id="imgHeadingDiv" class="container-fluid">
+    <h2>Choose some books to swap</h2>
+  </div>
+  <div id="imgContainer" class="container">
+    <div class="row">
+      <div class="col-lg-4">
+      <a href="https://github.com/ryansharpss/nameofapp.git">
+        <%= image_tag("Alchemist.jpg", width: "150", height: "200") %>
+      </a>
+      </div>
+      <div class="col-lg-4">
+      <a href="https://github.com/ryansharpss/nameofapp.git">
+        <%= image_tag("flow.jpg", width: "200", height: "200") %>
+      </a>
+      </div>
+      <div class="col-lg-4">
+      <a href="https://github.com/ryansharpss/nameofapp.git">
+        <%= image_tag("master.jpg", width: "150", height: "200") %>
+      </a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4">
+      <a href="https://github.com/ryansharpss/nameofapp.git">
+        <%= image_tag("think.jpg", width: "220", height: "200") %>
+      </a>
+      </div>
+      <div class="col-lg-4">
+      <a href="https://github.com/ryansharpss/nameofapp.git">
+        <%= image_tag("startup.jpg", width: "150", height: "200") %>
+      </a>
+      </div>
+      <div class="col-lg-4">
+      <a href="https://github.com/ryansharpss/nameofapp.git">
+        <%= image_tag("html.jpg", width: "150", height: "200") %>
+      </a>
+      </div>
+    </div> 
+    <div class="row">
+      <div class="col-lg-4">
+      <a href="https://github.com/ryansharpss/nameofapp.git">
+        <%= image_tag("dont.jpg", width: "150", height: "200") %>
+      </a>
+      </div>
+      <div class="col-lg-4">
+      <a href="https://github.com/ryansharpss/nameofapp.git">
+        <%= image_tag("4hour.jpg", width: "150", height: "200") %>
+      </a>
+      </div>
+      <div class="col-lg-4">
+      <a href="https://github.com/ryansharpss/nameofapp.git">
+        <%= image_tag("7.jpg", width: "150", height: "200") %>
+      </a>
+      </div>
+    </div>
+
+
+</div>

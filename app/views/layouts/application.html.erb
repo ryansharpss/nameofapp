@@ -1,26 +1,73 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Nameofapp</title>
-    <%= csrf_meta_tags %>
+<head>
+  <title>Nameofapp</title>
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-  </head>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <%= csrf_meta_tags %>
+</head>
 
   <body>
-   <nav>
-  <ul>
-    <li>Home</li>
-    <li>About</li>
-    <li>Contact</li>
-  </ul>
+ <nav id="navBar" class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"        aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Book Swap</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+       <li><%= link_to 'HOME', root_url %></li>
+       <li><%= link_to 'ABOUT', about_url %></li>
+        <li><%= link_to 'CONTACT', contact_url %></li>
+        <li role="separator" class="divider"></li>
+       
+      </ul>
+    </div>
+  </div><!-- /.container-fluid -->
+
+  
 </nav>
+  <%= yield %>
 
-<%= yield %>
+  <footer id="footerBar" class="navbar-bottom navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"        aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Book Swap</a>
+    </div>
 
-<footer>
-  &copy; 2015 Bike Berlin
-</footer>
-  </body>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+       <li><%= link_to 'Home', root_url %></li>
+       <li><%= link_to 'ABOUT', about_url %></li>
+        <li><%= link_to 'CONTACT', contact_url %></li>
+        <li role="separator" class="divider"></li>
+       
+      </ul>
+    </div>
+  </div><!-- /.container-fluid -->
+   
+  </footer>
+</body>
 </html>

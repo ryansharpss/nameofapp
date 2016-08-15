@@ -1,3 +1,9 @@
+GIT
+  remote: git://github.com/RailsApps/rails_layout.git
+  revision: c5404d5b1b8cf1191b47b91dbba9615c02345b2f
+  specs:
+    rails_layout (1.0.29)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -40,7 +46,6 @@ GEM
       tzinfo (~> 1.1)
     arel (7.1.1)
     builder (3.2.2)
-    byebug (9.0.5)
     coffee-rails (4.2.1)
       coffee-script (>= 2.2.0)
       railties (>= 4.0.0, < 5.2.x)
@@ -156,14 +161,14 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  byebug
   coffee-rails (~> 4.2)
   jbuilder (~> 2.5)
   jquery-rails
   listen (~> 3.0.5)
   pg
   puma (~> 3.0)
-  rails (~> 5.0.0)
+  rails (~> 5.0.0.1)
+  rails_layout!
   sass-rails (~> 5.0)
   spring
   spring-watcher-listen (~> 2.0.0)

@@ -2,12 +2,9 @@ source 'https://rubygems.org'
 
 ruby "2.3.0"
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-<<<<<<< HEAD
-gem 'rails', '~> 5.0.0'
+#gem 'rails', '~> 5.0.0'
 # Use sqlite3 as the database for Active Record
-=======
 gem 'rails', '~> 5.0.0.1'
->>>>>>> new_branch_name
 
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
@@ -39,16 +36,12 @@ end
 
 # Use sqlite3 as the database for Active Record
 group :development, :test do
-<<<<<<< HEAD
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
-  gem 'sqlite3'
-=======
   gem 'sqlite3'
 end
 group :development do
   gem 'rails_layout', github: 'RailsApps/rails_layout'
->>>>>>> new_branch_name
 end
 
 group :development do

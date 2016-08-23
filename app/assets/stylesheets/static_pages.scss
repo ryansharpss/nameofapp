@@ -44,16 +44,28 @@ h2 {
 }
 
 
-  
+  .bookText {
+
+ position: relative;
+ left: 180px;
+ bottom: 90px;
+  }
   .form-group {
 
 background-color:  #3CBC8D;
   }
 
 .row {
- padding-top: 100px;
+
  margin-left: 150px;
  margin-right: 100px;
+}
+
+.col-xs-12 {
+    width: 100%;
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 #imgContainer {
   
@@ -62,6 +74,7 @@ background-color:  #3CBC8D;
 
 }
 #footerbar{
-  
+   background-color: black;
+  color: black;
   height: 100%;
 }

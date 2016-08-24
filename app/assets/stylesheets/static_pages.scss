@@ -4,7 +4,7 @@
 }
 nav {
   
-  color: white;
+  color: #3CBC8D;;
 }
 #navBar {
   
@@ -30,8 +30,14 @@ h1 {
 }
 
 h2 {
-  
+  font-size: 40px;
   text-align: center;
+}
+#bookOfWeek {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 100%;
+    text-align: -webkit-center;
 }
 #aboutText {
   padding-bottom: 100px;
@@ -44,29 +50,26 @@ h2 {
 }
 
 
-  .bookText {
-
- position: relative;
- left: 180px;
- bottom: 90px;
-  }
-  .form-group {
-
-background-color:  #3CBC8D;
+.bookText {
+  position: relative;
+  left: 180px;
+  bottom: 90px;
   }
 
-.row {
-
- margin-left: 150px;
- margin-right: 100px;
+#contactCss {
+  
+  list-style:none;
+   padding-top: 38px;
 }
 
-.col-xs-12 {
-    width: 100%;
-    background-color: white;
-    padding-top: 50px;
-    padding-bottom: 50px;
+#contactCss li{
+  font-size: 16px;
+  padding-top: 20px;
+   padding-bottom: 20px;
+  
 }
+
+
 #imgContainer {
   
   padding-top: 120px;

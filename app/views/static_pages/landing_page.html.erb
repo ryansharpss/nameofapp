@@ -1,3 +1,13 @@
+<style type="text/css">
+  
+
+  .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+</style>
 <div id="topDiv" class="container-fluid">
     <div id="title">
       <h2>Featured Product:</h2>
@@ -13,6 +23,7 @@
       <li data-target="#carousel-example-generic" data-slide-to= "<%= @products %>" class="<%= "active" if product == @products.first %>"></li>
     <% end %>
   </ol>
+
 
   <!-- Wrapper for slides -->
 <div class="c-wrapper">

@@ -69,7 +69,12 @@ h2 {
    padding-bottom: 20px;
   
 }
-
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
 
 #imgContainer {
   
